@@ -1,2 +1,2 @@
 # twitch-throwbacks
-twitch throwbacks grants users the ability to look at past "throwbacks" or clips archived by a streamer.
+twitch throwbacks grants users the ability to look at nostalgic past "throwbacks" or clips previously archived by a streamer 
