@@ -14,12 +14,16 @@
   "author": "Emily Rose <amorelandra@twitch.tv>",
   "license": "Apache-2.0",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "boom": "^7.2.0",
     "color": "^3.0.0",
     "commander": "^2.15.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "hapi": "^17.2.2",
     "inert": "^5.1.0",
     "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.7.1",
     "request": "^2.85.0",
     "selfsigned": "^1.10.2"
   }

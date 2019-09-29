@@ -1,12 +1,12 @@
 {
   "allowHttpBackend": false,
   "backendCommand": "node backend -c \"l7btgiqnlnl9uy3e39tie9y0wnqfoj\" -s \"ehugC8pJSERsTVDYOckj0bnZRDAnsA9oZXWzMODFHug=\"",
-  "backendFolderName": "extension-getting-started\\services",
+  "backendFolderName": "C:\\Users\\Jaden\\Desktop\\Projects\\twitchHack\\twitch-throwbacks\\extension-getting-started\\services",
   "certificateExceptions": [],
   "extensionViews": [
     {
       "id": "1",
-      "label": "",
+      "label": "main",
       "channelId": "452396341",
       "configurationAnchor": "video_overlay",
       "displayChannelName": "forioop",
@@ -29,19 +29,19 @@
     },
     {
       "id": "2",
-      "label": "admin",
+      "label": "main",
       "channelId": "452396341",
       "configurationAnchor": "video_overlay",
       "displayChannelName": "forioop",
-      "type": "config",
+      "type": "video_overlay",
       "features": {
         "isBitsEnabled": false,
         "isChatEnabled": false,
         "isSubscriptionStatusAvailable": false
       },
-      "linked": true,
-      "linkedUserId": "265737932",
-      "mode": "config",
+      "linked": false,
+      "linkedUserId": "",
+      "mode": "viewer",
       "isPopout": false,
       "role": "Broadcaster",
       "orientation": "Portrait",
@@ -99,7 +99,7 @@
     "whitelistedPanelUrls": []
   },
   "frontendCommand": "",
-  "frontendFolderName": "extension-getting-started\\public",
+  "frontendFolderName": "C:\\Users\\Jaden\\Desktop\\Projects\\twitchHack\\twitch-throwbacks\\extension-getting-started\\public",
   "name": "videos",
   "version": 1
 }
