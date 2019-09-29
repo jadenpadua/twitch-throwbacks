@@ -3,6 +3,15 @@
     height: 100vh;
 }
 
+.box {
+  background-color: grey;
+  vertical-align: bottom;
+  border-radius: 12px;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
 .button-one {
     width:50%;
     height: 100%;
@@ -16,7 +25,7 @@
 
 .button-one:hover {
     background-color: lightgrey;
-    transition: 4s;
+
     -webkit-animation-name: hovering;
     -webkit-animation-duration: 4s;
     animation-name: hovering;
@@ -24,7 +33,7 @@
 }
 
 .emoji-one {
-    margin-top: 90vh;
+    margin-top: 80vh;
 }
 
 .button-two {
@@ -35,6 +44,7 @@
 
 .button-two:hover {
     background-color: lightgrey;
+
     -webkit-animation-name: hovering;
     -webkit-animation-duration: 4s;
     animation-name: hovering;
@@ -42,5 +52,5 @@
 }
 
 .emoji-two {
-    margin-top: 90vh;
+    margin-top: 80vh;
 }
