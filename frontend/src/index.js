@@ -2,14 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // dashboard components
-import Dashboard from './components/';
-import StartThrowback from './components/Dashboard/StartThrowback';
-import StopThrowback from './components/Dashboard/StopThrowback';
+import Dashboard from './components/Dashboard/';
 
 // reactions components
-import Reactions from './components/';
-import BrokenHeart from './components/Reactions/BrokenHeart';
-import Heart from './components/Reactions/Heart';
+import Reactions from './components/Reactions';
 
 
 class App extends React.Component {
@@ -22,8 +18,8 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Dashboard> <StartThrowback /> <StopThrowback /> </Dashboard>
-                <Reactions> <Heart /> <BrokenHeart /> </Reactions>
+              <Dashboard />
+              <Reactions />
             </div>
         );
     }

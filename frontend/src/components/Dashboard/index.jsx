@@ -1,13 +1,15 @@
 import React from 'react';
-import { Button } from 'antd';
 
 import './style.less';
+import StartThrowback from './components/Dashboard/StartThrowback';
+import StopThrowback from './components/Dashboard/StopThrowback';
 
 const Dashboard = props => {
   return (
-    <div className = "button">
-      <Button>Start throwback</Button>
-        </div>
+    <div>
+      <StartThrowback />
+      <StopThrowback />
+    </div>
   );
 };
 

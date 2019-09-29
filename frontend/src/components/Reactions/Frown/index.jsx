@@ -2,17 +2,15 @@ import React from 'react';
 import { Icon } from 'antd';
 
 import './style.less';
-import logo from '../../assets/graphics/heart.svg';
 
-
-const Heart = props => {
+const Frown = props => {
   return (
     ReactDOM.render(
       <div className="icons-list">
-        <Icon type="heart" theme="outline"/>
+        <Icon type="frown" theme="filled"/>
       </div>,
       mountNode,
-    );
+      );
 };
 
-export default Heart;
+export default Frown;
