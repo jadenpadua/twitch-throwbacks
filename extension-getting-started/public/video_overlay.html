@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <title>Viewer Page</title>
+</head>
+
+<body>
+    <div id="app" class="full-height"></div>
+    <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+           
+            <button onclick="startVideo(); setScene()" class="btn btn-outline-primary" id="startButton"type="button">Start Throwback</button>
+            <!-- <button onclick="myFunction2()" type="button">Pause Throwback</button>
+            <button onclick="myFunction3()" type="button">Play Throwback</button> -->
+            
+           
+            <div id="app">
+                   
+            </div>
+            <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                    crossorigin="anonymous"></script>
+            <script src="config.js" type="text/javascript"></script>
+            <script src="backend.js" type="text/javascript"></script>
+
+    <script src="config.js" type="text/javascript"></script>
+    <script src="viewer.js" type="text/javascript"></script>
+  
+    <div class = "container">
+            <span id="dot"></span>
+            <h1 id = "throwback"> Throwback</h1>
+    <div class = "vid-border">
+      <video id="myVid" onended="onEnd()">
+      <source src="video/vid.mp4" type="video/mp4">
+      </div>
+      
+    </div>
+
+    <div id="list">
+    </div>
+</body>
+</html>
