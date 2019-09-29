@@ -1,14 +1,33 @@
-import React from 'react';
-import { Button } from 'antd';
+import React from "react";
+import axios from "axios";
 
-import './style.less';
+import { Button } from "antd";
+
+import "./style.less";
+
+function postRequest() {
+  axios
+    .post("http://localhost:3001/cat", {
+      startThrowback: true
+    })
+    .then(response => {
+      alert("Added!");
+    })
+    .catch(error => {
+      alert(error);
+    });
+}
 
 const StartThrowback = props => {
   return (
     <div className="button">
-        <Button>Meow</Button>
+      <Button onSubmit={postRequest} className="start-throwback">
+        start throwback
+      </Button>
     </div>
   );
 };
+
+postRequest()
 
 export default StartThrowback;

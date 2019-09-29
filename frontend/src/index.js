@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// dashboard components
-import Dashboard from './components/Dashboard/';
-
-// reactions components
-import Reactions from './components/Reactions';
+import PageLayout from './components/PageLayout';
 
 
 class App extends React.Component {
@@ -18,8 +14,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-              <Dashboard />
-              <Reactions />
+              <PageLayout />
             </div>
         );
     }
