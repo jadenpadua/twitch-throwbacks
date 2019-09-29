@@ -1,0 +1,14 @@
+.two-buttons {
+    display: flex;
+    height: 100vh;
+}
+
+.button-one {
+    width:50%;
+    height: 100%;
+    align-self: flex-end;
+}
+
+.emoji-one {
+    margin-top: 90vh;
+}

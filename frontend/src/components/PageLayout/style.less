@@ -1,0 +1,61 @@
+@import '../../styles/fonts.less';
+@import '../../styles/vars.less';
+@import '../../styles/mixins.less';
+
+.header {
+  .noselect;
+
+  align-items: center;
+  background: #0659BC;
+  color: white;
+  display: flex;
+  font-size: @nav-body;
+  height: @nav-header-height;
+  padding: 0 10vw;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+
+  #logo {
+    width: 55px;
+    height: 55px;
+  }
+
+  .heading {
+    margin-left: 10px;
+  }
+
+  .subheading {
+    font-weight: 700;
+  }
+
+  .profile {
+    position: absolute;
+    right: 10%;
+  }
+
+  .title {
+    color: white;
+  }
+}
+
+.banner {
+  margin-top: @nav-header-height;
+}
+
+.content {
+  display: inline-block;
+  padding: 5%;
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+}
+
+.content-table {
+  display: table;
+  width: 100%;
+
+  > * {
+    display: table-cell;
+  }
+}
