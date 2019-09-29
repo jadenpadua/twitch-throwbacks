@@ -7,6 +7,9 @@
   background-color: grey;
   vertical-align: bottom;
   border-radius: 12px;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
 }
 
 .button-one {
