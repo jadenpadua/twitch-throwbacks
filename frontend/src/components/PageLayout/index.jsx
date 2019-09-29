@@ -1,31 +1,29 @@
 import React from "react";
 
 import "./style.less";
+
+import logo from "../../assets/logo.png";
 import StartThrowback from "../StartThrowback";
 
 const PageLayout = props => {
   return (
     <div>
-      <StartThrowback />
+      {/* <div className="header">
+        <img alt="twitch" id="logo" src={logo} />
+        <span className="heading">ACM@UCSD</span>
+        <span className="subheading">Membership Portal</span>
+      </div> */}
+      <StartThrowback className="meow"/>
     </div>
   );
 };
 
 export default PageLayout;
 
-// const PageLayout = props => {
+// const PageLayouts = props => {
 //   return (
 //     <>
-//       <div className="header">
-//         <NavLink className="title" to="/">
-//           <img alt="ACM" id="logo" src={logo} />
-//           <span className="heading">ACM@UCSD</span>
-//           <span className={props.isMobile ? 'hidden' : 'subheading'}>&nbsp;Membership Portal</span>
-//         </NavLink>
-//         <div className="profile">
-//           <NavProfile menu={<NavDropdown />} />
-//         </div>
-//       </div>
+
 //       <Banner />
 //       {props.isMobile ? (
 //         <>

@@ -7,7 +7,7 @@ import "./style.less";
 
 function postRequest() {
   axios
-    .post("http://localhost:3001/cat", {
+    .post("http://localhost:8081/start-throwback", {
       startThrowback: true
     })
     .then(response => {
