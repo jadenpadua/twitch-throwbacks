@@ -9,6 +9,38 @@
     align-self: flex-end;
 }
 
+@-webkit-keyframes hovering {
+  from {background-color: lightgrey;}
+  to {background-color: grey;}
+}
+
+.button-one:hover {
+    background-color: lightgrey;
+    transition: 4s;
+    -webkit-animation-name: hovering;
+    -webkit-animation-duration: 4s;
+    animation-name: hovering;
+    animation-duration: 4s;
+}
+
 .emoji-one {
+    margin-top: 90vh;
+}
+
+.button-two {
+    width:50%;
+    height: 100%;
+    align-self: flex-end;
+}
+
+.button-two:hover {
+    background-color: lightgrey;
+    -webkit-animation-name: hovering;
+    -webkit-animation-duration: 4s;
+    animation-name: hovering;
+    animation-duration: 4s;
+}
+
+.emoji-two {
     margin-top: 90vh;
 }
