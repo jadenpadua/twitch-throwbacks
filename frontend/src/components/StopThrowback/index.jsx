@@ -8,7 +8,7 @@ import "./style.less";
 function postRequest() {
   axios
     .post("http://localhost:8081/start-throwback", {
-      startThrowback: true
+      startThrowback: false
     })
     .then(response => {
       alert("Added!");
@@ -18,14 +18,14 @@ function postRequest() {
     });
 }
 
-const StartThrowback = props => {
+const StopThrowback = props => {
   return (
     <div className="button">
-      <Button type="primary" onSubmit={postRequest} className="start-throwback">
-        start throwback
+      <Button onSubmit={postRequest} className="stop-throwback">
+        stop throwback
       </Button>
     </div>
   );
 };
 
-  export default StartThrowback;
+  export default StopThrowback;

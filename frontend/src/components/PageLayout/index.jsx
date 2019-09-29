@@ -3,38 +3,36 @@ import React from "react";
 import "./style.less";
 
 import logo from "../../assets/logo.png";
+import banner from "../../assets/banner.png";
+
+import NavProfile from "../NavProfile";
+import NavDropdown from "../NavDropdown";
+import NavBarHorizontal from "../NavBarHorizontal";
 import StartThrowback from "../StartThrowback";
+import StopThrowBack from "../StopThrowback"
 
 const PageLayout = props => {
   return (
-    <div>
-      {/* <div className="header">
+    <div className="contents">
+      <div className="header">
         <img alt="twitch" id="logo" src={logo} />
-        <span className="heading">ACM@UCSD</span>
-        <span className="subheading">Membership Portal</span>
-      </div> */}
-      <StartThrowback className="meow"/>
+        <span className="heading">twitch </span>
+        <span className="subheading">throwbacks</span>
+        <div className="profile">
+          <NavProfile menu={<NavDropdown />} />
+        </div>
+      </div>
+      <img alt="banner" className="banner" src={banner} />
+      <>
+        <NavBarHorizontal />
+        <div className="content">
+          <h1>Start and stop Throwbacks</h1>
+          <StartThrowback />
+          <StopThrowBack />
+        </div>
+      </>
     </div>
   );
 };
 
 export default PageLayout;
-
-// const PageLayouts = props => {
-//   return (
-//     <>
-
-//       <Banner />
-//       {props.isMobile ? (
-//         <>
-//           <NavBarHorizontal />
-//           <div className="content">{props.children}</div>
-//         </>
-//       ) : (
-//         <div className="content-table">
-//           <NavBarVertical isAdmin={props.isAdmin} />
-//           <div className="content">{props.children}</div>
-//         </div>
-//       )}
-//     </>
-//   );

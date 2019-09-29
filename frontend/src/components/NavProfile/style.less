@@ -1,0 +1,67 @@
+@import '../../styles/fonts.less';
+@import '../../styles/mixins.less';
+@import '../../styles/vars.less';
+
+.nav-width {
+  width: @nav-drop-width;
+}
+
+.nav-profile {
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: @nav-body;
+  height: @nav-header-height;
+  justify-content: right;
+  position: relative;
+  width: @nav-drop-width;
+  white-space: nowrap;
+
+  &:hover {
+    .arrow {
+      opacity: .7;
+    }
+  }
+
+  .arrow {
+    color: @white;
+    font-size: @nav-heading;
+    position: absolute;
+    right: 10px;
+  }
+
+  .avatar {
+    position: absolute;
+  }
+
+  .name {
+    margin: 0px 40px 0px 10px;
+    -ms-overflow-style: none;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+
+  .name::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  .progress {
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-width {
+    width: 100px;
+  }
+
+  .nav-profile {
+    width: 100px;
+
+    .name {
+      .hidden;
+    }
+  }
+}
