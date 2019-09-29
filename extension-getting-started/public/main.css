@@ -42,6 +42,14 @@ display: block;
 
 }
 
+#upcoming {
+    position: absolute;
+    margin-top: 6px;
+    color: white;
+    margin-left: 1110px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
 .container {
     background: #7F00FF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
