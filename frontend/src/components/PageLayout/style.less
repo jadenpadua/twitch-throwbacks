@@ -46,20 +46,27 @@
   width: 100%;
 }
 
-.content {
-  display: inline-block;
-  padding: 5%;
-  position: relative;
-  vertical-align: top;
-  width: 100%;
-}
-
 .content-table {
-  display: table;
-  width: 100%;
-
-  > * {
-    display: table-cell;
+  margin-top: 2.5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  h1 {
+    font-weight: 500;
+  }
+  .emotes {
+    margin-top: 20px;
+  }
+  .emoji-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .emoji {
+    height: 32px;
   }
 }
-
+.kill {
+  height: 200px;
+}
