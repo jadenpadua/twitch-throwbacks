@@ -23,7 +23,7 @@
     "hapi": "^17.2.2",
     "inert": "^5.1.0",
     "jsonwebtoken": "^8.2.0",
-    "mongoose": "^5.7.1",
+    "mongoose": "^5.7.5",
     "request": "^2.85.0",
     "selfsigned": "^1.10.2"
   }
