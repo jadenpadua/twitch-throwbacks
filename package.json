@@ -19,7 +19,7 @@
     "color": "^3.0.0",
     "commander": "^2.15.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "hapi": "^17.2.2",
     "inert": "^5.1.0",
     "jsonwebtoken": "^8.2.0",
