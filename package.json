@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "hapi": "^17.2.2",
     "inert": "^5.1.0",
-    "jsonwebtoken": "^8.2.0",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.7.1",
     "request": "^2.85.0",
     "selfsigned": "^1.10.2"
